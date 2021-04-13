@@ -7,6 +7,11 @@ html,
 body {
   margin: 0;
   padding: 0;
+  /* I don't love this technique for getting
+     the bottom to be grey in a way that always fits the screen,
+     but I wanted to do this without touching the HTML, and this
+     was the way I got it to work with just flow layout
+  */
   background-color: hsl(0deg, 0%, 60%);
 }
 
